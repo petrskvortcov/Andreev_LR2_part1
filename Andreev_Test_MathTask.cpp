@@ -63,5 +63,5 @@ int runTests() {
 
     cute::ide_listener lis;
     cute::makeRunner(lis)(s, "All Tests");
-    return lis.summarizeFailures();
+    return lis.summarizeFailures(); 
 }
